@@ -22,12 +22,12 @@ const AboutPage = () => {
       </header>
 
       <div className="about-content">
-        <h1>About Us</h1>
+        <h1 style={{color:'white'}}>About Us</h1>
         <div className="logos">
           <img src={gdchLogo} alt="GDCH Logo" onError={() => console.log('GDCH Logo failed to load')} />
           <img src={vesLogo} alt="VES Logo" onError={() => console.log('VES Logo failed to load')} />
-        </div>
-        <p>
+        </div >
+        <p style={{backgroundColor:'white', color:'#122055', marginTop:'40px',marginBottom:'50px'}}>
           The Government Dental College & Hospital, Mumbai, a premier institution dedicated to advanced dental education and patient care, has collaborated with the innovative and esteemed Vivekanand Education Society’s Institute of Technology to develop Forensodont, a specialized website designed to assist doctors and forensic experts in identifying individuals through dental records.
         </p>
       </div>

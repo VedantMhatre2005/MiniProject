@@ -14,8 +14,10 @@ const LandingPage = () => {
         <div className="logo">
           <img src={toothIcon} alt="Tooth Icon" />
         </div>
+        <div style={{backgroundColor:'white', color:'#122055', paddingLeft:'50px', paddingRight:'50px', paddingTop:'20px', paddingBottom:'20px', borderRadius:'20px', border:'2px solid black'}}>
         <h1>FORENSODONT</h1>
         <p>You may disappear, but your jaw will always identify you</p>
+        </div>
       </div>
       <div className="buttons">
         <Link to="/login">

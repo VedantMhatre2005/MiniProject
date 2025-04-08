@@ -25,7 +25,7 @@ const MainPage = () => {
 
       <div className="main-content">
         <h1>Welcome to Forensodont</h1>
-        <p>Explore our services to manage patient records, upload radiographic images, and more.</p>
+        <p style={{marginBottom:'50px'}}>Explore our services to manage patient records, upload radiographic images, and more.</p>
         <div className="cta-buttons">
           <button className="btn" onClick={() => navigate('/dental-examination')}>
             Dental Examination

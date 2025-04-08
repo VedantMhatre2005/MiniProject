@@ -135,10 +135,10 @@ const DentalExamination = () => {
         </div>
       </header>
 
-      <div className="dental-examination-content">
+      <div style={{marginTop:'50px', marginBottom:'50px', width:'600px'}}className="dental-examination-content">
         <h2>Dental Examination</h2>
 
-        <div className="section patient-details">
+        <div style={{paddingRight:'50px'}}className="section patient-details">
           <h3>Patient Details</h3>
           <label>Name of the Patient</label>
           <input
@@ -210,7 +210,7 @@ const DentalExamination = () => {
           />
         </div>
 
-        <div className="section regressive-changes">
+        <div style={{paddingRight:'50px'}}className="section regressive-changes">
           <h3>Regressive Changes</h3>
           <label>Attrition</label>
           <input
@@ -242,7 +242,7 @@ const DentalExamination = () => {
           />
         </div>
 
-        <div className="section types-of-dentition">
+        <div style={{paddingRight:'50px'}} className="section types-of-dentition">
           <h3>Types of Dentition</h3>
           <label>Primary</label>
           <input
@@ -268,7 +268,7 @@ const DentalExamination = () => {
         </div>
 
         <div className="pathologies">
-          <div className="section tooth-pathologies">
+          <div style={{paddingRight:'50px', border:'solid black 1px'}}className="section tooth-pathologies">
             <h3>Pathologies</h3>
             <h4>Tooth</h4>
             <label>Size</label>
@@ -301,7 +301,7 @@ const DentalExamination = () => {
             />
           </div>
 
-          <div className="section other-pathologies">
+          <div style={{paddingRight:'50px', border:'solid black 1px'}} className="section other-pathologies">
             <h3>Others</h3>
             <label>Lips & Palate</label>
             <input
@@ -334,7 +334,7 @@ const DentalExamination = () => {
           </div>
         </div>
 
-        <div className="section radiographic-images">
+        <div style={{paddingRight:'50px'}} className="section radiographic-images">
           <h3>Radiographic Images</h3>
           <label>OPG</label>
           <input type="file" name="opg" onChange={handleImageChange} />
